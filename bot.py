@@ -21,7 +21,7 @@ load_dotenv()
 TOKEN = os.getenv("7303696543:AAGdGdSlI6ZfyodhbThq4gvJRiWW7fZ-8po")
 ADMIN_IDS_STR = os.getenv("ADMIN_IDS", "7381642564,7223414109")
 ADMIN_IDS = [int(admin_id.strip()) for admin_id in ADMIN_IDS_STR.split(',') if admin_id]
-STORAGE_CHANNEL_ID = int(os.getenv("1002736992756"))
+STORAGE_CHANNEL_ID = int(os.getenv(1002736992756))
 RAZORPAY_KEY_ID = os.getenv("rzp_live_Kfvz8iobE8iUZc")
 RAZORPAY_KEY_SECRET = os.getenv("bcPhJQ2pHTaaF94FhWCEl6eD")
 
