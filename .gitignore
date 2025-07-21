@@ -1,0 +1,6 @@
+.env
+bot_database.db
+config.json
+catalog.json
+__pycache__/
+*.pyc
