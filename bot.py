@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 # --- Load Config from .env ---
 load_dotenv()
-TOKEN = os.getenv("TELEGRAM_TOKEN")
+TOKEN = os.getenv("TOKEN")
 ADMIN_IDS_STR = os.getenv("ADMIN_IDS", "7381642564,7223414109")
 ADMIN_IDS = [int(admin_id.strip()) for admin_id in ADMIN_IDS_STR.split(',') if admin_id]
 STORAGE_CHANNEL_ID = int(os.getenv("STORAGE_CHANNEL_ID"))
